@@ -393,7 +393,7 @@ export default function App() {
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6 text-xs font-semibold">
           <div className="flex items-center space-x-2.5">
             <div className="w-8 h-8 rounded bg-slate-800 text-amber-500 flex items-center justify-center">
-              <img src="/logo.png" alt="Logo" className="w-5 h-5 object-contain" />
+              <img src="./logo.png" alt="Logo" className="w-5 h-5 object-contain" />
             </div>
             <span className="font-black text-white uppercase tracking-wider">Sri Shanmuga Hardwares Showcase</span>
           </div>

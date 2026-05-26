@@ -56,7 +56,7 @@ export default function Navbar({
           {/* Logo Brand */}
           <div className="flex items-center space-x-3">
             <div className="flex items-center h-12 sm:h-14 overflow-hidden">
-              <img src="/logo.png" alt="Sri Shanmuga Hardwares" className="h-full w-auto object-contain" />
+              <img src="./logo.png" alt="Sri Shanmuga Hardwares" className="h-full w-auto object-contain" />
             </div>
           </div>
 
