@@ -1,0 +1,31 @@
+/**
+ * @license
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: SFMono-Regular, Consolas, "Liberation Mono", MENLO, monospace;
+}
+
+/* Strike-animation for logos or heavy equipment indicators */
+@keyframes iron-strike {
+  0% { transform: translateY(0) rotate(0deg); }
+  10% { transform: translateY(-3px) rotate(-8deg); }
+  25% { transform: translateY(1px) rotate(4deg); }
+  35% { transform: translateY(-1px) rotate(-2deg); }
+  45% { transform: translateY(0) rotate(0); }
+  100% { transform: translateY(0) rotate(0); }
+}
+
+.strike-animation {
+  animation: iron-strike 2.6s infinite ease-in-out;
+}
+
+/* Smooth custom slide animations */
+.backdrop-blur-xs {
+  backdrop-filter: blur(4px);
+}

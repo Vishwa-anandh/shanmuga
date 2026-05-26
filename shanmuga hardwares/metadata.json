@@ -1,0 +1,6 @@
+{
+  "name": "Hardware Store Landing & Showcase",
+  "description": "An interactive, highly polished showcase and landing page for a hardware store featuring modular department filters, a DIY project materials calculator, a product specs drawer, and a virtual shopping cart.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
